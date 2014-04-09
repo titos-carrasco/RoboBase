@@ -136,7 +136,7 @@ class Main:
 				d = self.rob.Ping(100)
 				self.PingValue.set_text("%3.2f cms." % (d))
 				time.sleep(0.1)
-			except e:
+			except:
 				break
 
 
