@@ -3,7 +3,7 @@
   <!-- interface-requires gtk+ 3.0 -->
   <object class="GtkWindow" id="MainWindow">
     <property name="can_focus">False</property>
-    <property name="title" translatable="yes">DaguCar / iRacer</property>
+    <property name="title" translatable="yes">RoboBase</property>
     <property name="resizable">False</property>
     <signal name="delete-event" handler="OnDeleteWindow" swapped="no"/>
     <child>
@@ -383,12 +383,6 @@
                         <property name="width">1</property>
                         <property name="height">1</property>
                       </packing>
-                    </child>
-                    <child>
-                      <placeholder/>
-                    </child>
-                    <child>
-                      <placeholder/>
                     </child>
                   </object>
                 </child>
